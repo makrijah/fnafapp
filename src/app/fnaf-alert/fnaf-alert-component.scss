@@ -1,0 +1,15 @@
+@keyframes blink {
+	0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+}
+
+.alert-row {
+    font-size: 1.5em;
+    
+}
+.alerting {
+    color: red;
+    animation: blink 1s infinite;
+    cursor: pointer;
+}

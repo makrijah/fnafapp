@@ -1,0 +1,8 @@
+<div class="alert-row" 
+    [ngClass]="{alerting: alerting}"
+    (click)="startReset()">
+    {{alert}}
+    <audio #alarm loop>
+        <source src="./assets/sounds/alarm.mp3" type="audio/mp3">
+    </audio>
+</div>
