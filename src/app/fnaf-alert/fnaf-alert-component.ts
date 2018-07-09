@@ -22,6 +22,7 @@ export class FnafAlertComponent implements OnInit{
     }
 
     public ngOnInit() {
+        this.alarmRef.nativeElement.load();
         setTimeout(() => {
             this.alerting = true;
             this.alarm();

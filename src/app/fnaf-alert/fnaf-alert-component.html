@@ -2,7 +2,7 @@
     [ngClass]="{alerting: alerting}"
     (click)="startReset()">
     {{alert}}
-    <audio #alarm loop>
+    <audio #alarm loop muted="muted">
         <source src="./assets/sounds/alarm.mp3" type="audio/mp3">
     </audio>
 </div>
